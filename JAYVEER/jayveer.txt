@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayveer Bhai</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="header">
+
+            <h2>Welcome to my Website </h2>
+        </div>
+
+    </header>
+
+    <nav class="nav1">
+        <ul>
+            <li> <a target="_blank" href="https://www.youtube.com/watch?v=es4x5R-rV9s" class="active">Home</a></li>
+            <li> <a target="_blank" href="https://www.youtube.com/watch?v=es4x5R-rV9s">About</a></li>
+            <li> <a target="_blank" href="https://www.youtube.com/watch?v=es4x5R-rV9s">Services</a></li>
+            <li><a target="_blank" href="https://www.youtube.com/watch?v=es4x5R-rV9s">contact</a></li>
+            <li><a href="#"> Pages </a>
+                <ul>
+                    <li><a href="#">Content1</a></li>
+                    <li><a href="#">Main Content
+                            <i class="fas fa-caret-right"></i>
+                        </a>
+                        <ul>
+                            <li><a href="#">link1</a></li>
+                            <li><a href="#">link2</a></li>
+                            <li><a href="#">link3</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="#">Content2</a></li>
+                </ul>
+
+            </li>
+        </ul>
+    </nav>
+
+
+
+    <div class="imgage">
+
+        <img src="download (1).jpg"
+            alt="">
+        <img src="download (2).jpg"
+            alt="">
+        <img src="download (3).jpg"
+            alt="">
+        <img src="download (3).jpg"
+            alt="">
+        <img src="download (3).jpg"
+            alt="">
+        <img src="download (3).jpg"
+            alt="">
+        <img src="download (3).jpg"
+            alt="">
+        <img src="download (3).jpg"
+            alt="">
+        <img src="download (3).jpg"
+            alt="">
+            
+    </div> -->
+     <video autoplay loop muted></video>
+    <footer class="foter">
+        <h4>Jayveer chauchan & copycopyright</h4>
+
+        <img src="" alt="">
+    </footer>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+/* 
+    background-image: url('https://source.unsplash.com/collection/190727/1600x900'); */
+
+
+}
+
+.header h2 {
+    padding: 11px;
+    text-transform: capitalize;
+
+}
+
+.nav1 {
+    border: 3px solid rgb(213, 159, 159);
+    border-radius: 11px;
+    /* position: fixed; */
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    /* overflow: hidden; */
+    background-color: rgb(44, 42, 42);
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+
+}
+
+.nav1 ul {
+    margin: 1px;
+    position: relative;
+}
+
+.nav1 ul li {
+    display: inline-block;
+    margin: 6px;
+
+
+}
+
+.nav1 ul li a {
+    color: white;
+    text-decoration: none;
+    /* position: absolute; */
+}
+
+.nav1 ul li a:hover,
+.nav1 ul li a.active {
+    color: rgb(126, 240, 12);
+    text-decoration: underline;
+}
+
+.nav1 ul li ul {
+
+    display: block;
+    position: absolute;
+    background-color: rgb(95, 95, 183);
+    /* margin: 11px 1px 1px -26px; */
+    width: 150px;
+    text-align: center;
+    /* justify-content: center; */
+    padding: inherit;
+    visibility: hidden;
+}
+
+.nav1 ul li ul li a {
+    padding: auto 50px;
+    margin: 1px 1px;
+
+}
+
+.nav1 ul li:hover ul {
+    display: block;
+    visibility: visible;
+
+}
+
+.nav1 ul li ul li:hover ul li {
+    visibility: visible;
+    display: block;
+}
+
+
+.nav1 ul ul li {
+    float: none;
+    color: white;
+    /* padding: 12px 16px; */
+    display: block;
+    /* text-align: left; */
+    border-bottom: 1px solid black;
+
+
+
+
+}
+
+.nav1 ul li ul li ul li {
+    right: 140px;
+    padding: 1px 9px 1px 9px;
+    /* margin: -2px 8px 0px -41px; */
+    text-transform: capitalize;
+    display: inline-block;
+    visibility: hidden;
+}
+
+
+
+
+
+h2 {
+    border: 1px solid black;
+    text-align: center;
+
+    padding: 0px;
+}
+
+.content {
+    border: 2px solid black;
+    display: flex;
+
+    text-align: center;
+
+}
+
+.content12 {
+
+    border: 2px solid greenyellow;
+    width: 238px;
+    height: 299px;
+    margin: 0px;
+    overflow: hidden;
+    overflow-x: auto;
+
+}
+
+
+
+
+
+
+h1 {
+    margin-bottom: 2px;
+}
+
+
+
+.foter {
+    border: 4px solid black;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+p {
+    border: 2px solid white;
+
+    width: 367px;
+    height: 219px;
+}
+
+.main {
+
+    border: 3px solid blue;
+    width: 601px;
+    height: 294px;
+    margin: 1px;
+    overflow: hidden;
+    overflow-y: scroll;
+    background-attachment: fixed;
+
+    background-origin: content-box;
+}
+
+.main table {
+    border: 1px solid green;
+    /* text-align: justify ; */
+    height: 244px;
+    width: 545px;
+}
+
+.main table tbody {
+    text-align: inherit;
+}
+
+.main table thead th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    /* text-align: justify; */
+}
+
+.new {
+    border: 2px solid black;
+    padding: 12px 30px 38px 19px;
+    margin: 8px 12px 10px 10px;
+    background-size: cover;
+}
